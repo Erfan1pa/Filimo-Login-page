@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "IRSans";
+  src: url(Iranian\ Sans.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: IRSans, sans-serif;
+  font-size: small;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+.logo {
+  filter: contrast(0);
+  opacity: 0.8;
+  position: absolute;
+  top: 60px;
+  right: 45%;
+}
+.icon {
+  width: 30px;
+}
+.name_icon {
+  height: 28px;
+  padding: 0px 5px 2px 0px;
+}
+.return {
+  height: 36px;
+  width: 95px;
+  position: absolute;
+  top: 155;
+  right: 448;
+  border: 1px solid #bbbbbb;
+  background-color: #f9f9f9;
+  color: #696969;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: transform 1s linear;
+}
+.return:hover > .fa-arrow-right-long {
+  transform: translateX(3px);
+}
+.container {
+  box-shadow: rgb(143 143 143 / 21%) 0px 0px 2px 1px;
+  border-radius: 4px;
+  height: 250px;
+  width: 445px;
+  margin: 213px auto;
+}
+.up {
+  height: 105px;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgba(90, 90, 90, 0.1);
+}
+.paraghraph {
+  font-size: 11px;
+}
+.up .paraghraph {
+  position: absolute;
+  top: 43;
+  padding-right: 22px;
+  font-weight: bold;
+}
+.creat-acc {
+  font-size: 11px;
+  position: absolute;
+  background-color: #00ac58;
+  border-radius: 5px;
+  height: 42px;
+  line-height: 3;
+  width: 120px;
+  color: white;
+  padding-right: 10px;
+  padding-top: 4px;
+  right: 290;
+  top: 30;
+}
+.down {
+  width: 100%;
+  height: 415px;
+  position: relative;
+}
+.down .paraghraph {
+  margin: 30px 25px 26px 0px;
+  font-weight: bold;
+}
+.name {
+  width: 300px;
+  height: 40px;
+  margin-right: 25px;
+  padding-right: 25px;
+  font-size: 12px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  transition: border 0.5s linear;
+  padding-right: 30px;
+}
+.name:focus {
+  outline: none;
+  border: 1px solid gray;
+}
+.user {
+  position: absolute;
+  right: 35;
+  top: 48;
+  font-size: 18;
+  color: gray;
+}
+.forget {
+  position: absolute;
+  padding-right: 10px;
+  height: 23;
+  border-right: 1px solid rgba(90, 90, 90, 0.5);
+  font-size: 11;
+  top: 48;
+  line-height: 1.8;
+  left: 130;
+  color: rgb(191 115 0);
+}
+.enter {
+  background-color: #00ac58;
+  color: white;
+  border: none;
+  height: 39px;
+  width: 77px;
+  border-radius: 5px;
+  position: absolute;
+  right: 75%;
+  top: 40;
+}
+.support {
+  position: absolute;
+  top: 74%;
+  right: 33.5%;
+  width: 100%;
+}
+.support:hover {
+  cursor: pointer;
+}
+.support_icon {
+  width: 20px;
+  height: 20px;
+}
+.inline {
+  display: inline-block;
+  font-size: 11px;
+  position: absolute;
+  top: 3px;
+  right: 25px;
+}
+.fa-caret-down {
+  font-size: 11px;
+  position: absolute;
+  top: 3px;
+  right: 72px;
+}
